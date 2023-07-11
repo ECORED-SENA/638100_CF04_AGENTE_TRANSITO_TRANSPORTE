@@ -8,6 +8,15 @@
         span
           i.fas.fa-info
       h1 Introducción
+    .row.bg-c1
+      .col-12
+        .px-5.pt-5
+          .row.align-items-center.mb-5
+            .col-12
+              p.mb-0 Bienvenido a este componente formativo, para comenzar el recorrido por el mismo, revise la información que se presenta a continuación.
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
