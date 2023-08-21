@@ -44,12 +44,15 @@
             img(src='@/assets/curso/tema2/img5.svg', style="width: 80px" ,alt='')
           p.mb-0 Esta comunicación se desarrolla a través de la expresión de la idea propia sin menospreciar la de las demás personas.
     p.mb-5 Además de las anteriores características existen algunas técnicas que al aplicarse de manera adecuada permiten obtener una comunicación optima, estas son:
+
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 2
+      span Técnicas de comunicación asertiva
     .row.bg-c8
       .col-12
-        .px-5.pt-4
-          h3.text-center.mb-4 Técnicas de comunicación asertiva
+        .px-5.pt-5
           figure.mb-4
-            img(src='@/assets/curso/tema2/img8.svg', style="width: 650px" ,alt='').m-auto
+            img(src='@/assets/curso/tema2/img8b.svg', style="max-width: 610px" ,alt='').m-auto
           .row.justify-content-center
             .col-8.col-md-5.col-lg.m-2.bg-c7
               .p-4
@@ -115,9 +118,17 @@
             .col-lg-6.mb-4.mb-lg-0
               p #[b Comunicaciones]
               p Como negociador, garantice la óptima comunicación entre las partes, evite estas tres situaciones ya que pueden ser contratiempos para la negociación:
-              p.ms-3.mb-0 #[b 1. Que las partes no realicen el ejercicio de la comunicación.]
-              p.ms-3.mb-0 #[b 2. Que una de las partes no realice el ejercicio de escucha activa.]
-              p.ms-3.mb-0 #[b 3. Que se presenten malos entendidos.]
+              ol.lista-ol.my-3.ms-3
+                li.mb-0
+                  span.text-bold 1.
+                  | #[strong Que las partes no realicen el ejercicio de la comunicación.]
+                li.mb-0
+                  span.text-bold 2.
+                  | #[strong Que una de las partes no realice el ejercicio de escucha activa.]
+                li.mb-0
+                  span.text-bold 3.
+                  | #[strong Que se presenten malos entendidos.]
+
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/img5.png', style="width: 450px" ,alt='').m-auto
@@ -144,43 +155,48 @@
           h3.mb-0.ms-3 Comunicación asertiva y abordaje de las partes para la atención de siniestros viales
     p Dentro de las cualidades que tiene la comunicación entre las personas, se encuentra la comunicación asertiva como una herramienta de vital importancia para lograr la convivencia ciudadana y el respeto por la seguridad vial, expresando su opinión de manera firme y ecuánime, motivo por el cual el aprendiz deberá desarrollar las habilidades necesarias, a la hora de llegar a atender un siniestro vial, bien sea solo daños, con lesionados o con muertos.
     p.mb-5 Algunas estrategias para conocer un siniestro se enumeran a continuación:
-    .row.mb-5
+    .row.mb-3
       .col-12.bg-c6
         .p-4
           h3.text-center.txt-c1.mb-0 Estrategias para conocer un siniestro
-    .row.justify-content-center
-      .col-9.col-md-5.col-lg.m-2
+    .row.justify-content-center.align-items-stretch
+      .col-9.col-md-5.col-lg.m-2.bg-color-secundario
         .row
-          .col-12.px-0
+          .col-12.px-0.bg-white
             figure
               img(src='@/assets/curso/tema2/img8.png', style="width: 380px" ,alt='').m-auto
-          .col-12.bg-c9
+          .col-12
             .p-4
               p.mb-0 Identificar a los conductores involucrados.
-      .col-9.col-md-5.col-lg.m-2
+      .col-9.col-md-5.col-lg.m-2.bg-color-secundario
         .row
-          .col-12.px-0
+          .col-12.px-0.bg-white
             figure
               img(src='@/assets/curso/tema2/img9.png', style="width: 380px" ,alt='').m-auto
-          .col-12.bg-c9
+          .col-12
             .p-4
               p.mb-0 Solicitar los documentos de ley.
-      .col-9.col-md-5.col-lg.m-2
+      .col-9.col-md-5.col-lg.m-2.bg-color-secundario
         .row
-          .col-12.px-0
+          .col-12.px-0.bg-white
             figure
               img(src='@/assets/curso/tema2/img10.png', style="width:380px" ,alt='').m-auto
-          .col-12.bg-c9
+          .col-12
             .p-4
               p.mb-0 Indagar sobre los móviles de tiempo, modo y lugar que dieron origen al siniestro.
-      .col-9.col-md-5.col-lg.m-2
+      .col-9.col-md-5.col-lg.m-2.bg-color-secundario
         .row
-          .col-12.px-0
+          .col-12.px-0.bg-white
             figure
               img(src='@/assets/curso/tema2/img11.png', style="width:380px" ,alt='').m-auto
-          .col-12.bg-c9
+          .col-12
             .p-4
               p.mb-0 Como autoridad de tránsito del control operativo, se debe ser parcial, diáfano y cumplidor del marco legal.
+
+    .row.mb-5.mt-3
+      .col-12.bg-c4
+        p.p-4.mb-0 Se deberá siempre mantener confianza, claridad y control de la actividad a desarrollar, demostrando con ello siempre los requisitos indispensables de la comunicación asertiva.
+
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido

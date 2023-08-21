@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-md-9.col-lg.bg-c2
         .p-5
-          p.text-white.mb-0 La conciliación en accidentes de tránsito, a pesar de ser realmente nueva la ley que la determina, se aplicaba en ocasiones al libre albedrío de la autoridad de tránsito del control operativo, sin embargo, con la entrada en vigencia de la Ley 2251 de 2022, la autoridad que conoce los siniestros viales con gravedad de solo daños, tiene la facultad de ilustrar al ciudadano o al actor vial inmerso en un evento o siniestro, el paso a paso que debe seguir para poder tener un acceso a la administración de justicia en materia administrativa por los daños ocasionados en bienes muebles, inmuebles, entre otros.
+          p.text-white.mb-0 La conciliación en accidentes de tránsito, a pesar de ser realmente nueva la ley que la determina, se aplicaba en ocasiones al libre albedrío de la autoridad de tránsito del control operativo, sin embargo, con la entrada en vigencia de la #[strong Ley 2251 de 2022], la autoridad que conoce los siniestros viales con gravedad de solo daños, tiene la facultad de ilustrar al ciudadano o al actor vial inmerso en un evento o siniestro, el paso a paso que debe seguir para poder tener un acceso a la administración de justicia en materia administrativa por los daños ocasionados en bienes muebles, inmuebles, entre otros.
       .col-lg-auto.px-0
         figure
           img(src='@/assets/curso/tema3/img1.png', style="width: 485px" ,alt='').m-auto
@@ -27,7 +27,7 @@
                 figure.mb-3
                   img(src='@/assets/curso/tema3/img1.svg', style="width: 80px" ,alt='')
                 p #[b Actos conciliables]
-                p.mb-0 Los accidentes de tránsito que causen daños materiales, en los que resulten afectados vehículos asegurados o no, inmuebles, cosas o animales y no se produzcan lesiones personales
+                p.mb-0 Los accidentes de tránsito que causen daños materiales, en los que resulten afectados vehículos asegurados o no, inmuebles, cosas o animales y no se produzcan lesiones personales.
             .col-md-7.col-lg-5.bg-c4.m-2
               .p-4
                 figure.mb-3
@@ -40,7 +40,7 @@
       h2 3.2. Habilidades específicas del conciliador en accidentes de tránsito
     p El conciliador deberá tener un amplio conocimiento en la materia de tránsito y transporte, conocer el régimen normativo que orienta a la autoridad de tránsito del control operativo, investigación de accidentes de tránsito, mecánica automotriz, manejo de la comunicación asertiva, el manejo de la oralidad, siendo espontáneo, multidireccional, estando siempre dispuesto como agente emisor, a que el receptor (actor vial) sea persuadido por la información suministrada.
     p.mb-5 El conciliador deberá tener presentes, a la hora de atender un requerimiento ciudadano o un siniestro vial, las siguientes habilidades:
-    .row.mb-5
+    .row.mb-3
       .col-12.bg-c6
         .p-4
           h3.text-center.txt-c1.mb-0 Habilidades del conciliador
@@ -54,8 +54,14 @@
             .p-4
               figure.mb-3
                 img(src='@/assets/curso/tema3/img4.svg', style="width: 80px" ,alt='').m-auto
-              p • Saber escucharlas y entender sus posiciones.
-              p • Establecer contacto visual y prestar atención constante a lo que dicen y cómo actúan.
+              ul.lista-ul
+                li
+                  i.lista-ul__vineta
+                  span Saber escucharlas y entender sus posiciones.
+                li
+                  i.lista-ul__vineta
+                  span Establecer contacto visual y prestar atención constante a lo que dicen y cómo actúan.
+
       .col-11.col-md-8.col-lg.m-2
         .row
           .col-12.bg-c11
@@ -65,8 +71,15 @@
             .p-4
               figure.mb-3
                 img(src='@/assets/curso/tema3/img5.svg', style="width: 80px" ,alt='').m-auto
-              p • Tener claridad al expresar sus ideas y pensamientos.
-              p • Mostrar confianza y amabilidad al comunicarse.
+
+              ul.lista-ul
+                li
+                  i.lista-ul__vineta
+                  span Tener claridad al expresar sus ideas y pensamientos.
+                li
+                  i.lista-ul__vineta
+                  span Mostrar confianza y amabilidad al comunicarse.
+
       .col-11.col-md-8.col-lg.m-2
         .row
           .col-12.bg-c11
@@ -76,8 +89,15 @@
             .p-4
               figure.mb-3
                 img(src='@/assets/curso/tema3/img6.svg', style="width: 80px" ,alt='').m-auto
-              p • Prepararse con anterioridad y demostrar pleno conocimiento del tema.
-              p • Mostrar coherencia en la información a transmitir.
+
+              ul.lista-ul
+                li
+                  i.lista-ul__vineta
+                  span Prepararse con anterioridad y demostrar pleno conocimiento del tema.
+                li
+                  i.lista-ul__vineta
+                  span Mostrar coherencia en la información a transmitir.
+
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
@@ -259,7 +279,7 @@
               img(src='@/assets/curso/tema3/img25.svg', style="width: 60px" ,alt='').m-auto
           .col.bg-c15
             .p-3
-              p.mb-0.ms-3 Relación sucinta de los hechos motivo de la conciliación.
+              p.mb-0.ms-3 Relación sucinta de las pretensiones motivo de la conciliación.
         .row.align-items-center.mb-4
           .col-auto.pe-0(style="z-index:2")
             figure

@@ -24,9 +24,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-1 #[b Parámetros: informe policial]
-                  p.text-small Le invitamos a descargar y consultar los parámetros básicos que se deben tener en cuenta para diligenciar el informe policial.
+                  p.text-small Se invita a revisar los parámetros básicos que se deben tener en cuenta para diligenciar el informe policial en el siguiente documento.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2_parametros_informe_policial.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

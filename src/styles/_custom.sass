@@ -57,6 +57,11 @@
   background-color: #D40A32
 .slyder-a__bullets__item
   background-color: #DF949A
+  @media (max-width: 450px)
+    margin: 0 5px
+  @media (max-width: 400px)
+    margin: 0 4px
+
 .slyder-a__bullets__item--active
   background-color: #D40A32
 
@@ -124,6 +129,10 @@
     border-top-left-radius: 15px
     border-top-right-radius: 15px
     height: 100px
+    @media (max-width: $bp-max-lg)
+      height: 120px
+    @media (max-width: $bp-max-md)
+      height: 100px
   &-c12
     background-color: #F1EBDD
     border-bottom-left-radius: 15px
@@ -155,3 +164,42 @@
 .txt
   &-c1
     color: #F0B62A
+
+
+@media (max-width: $bp-max-xl)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-resonsive.png') !important
+    background-position: top left
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.bg-color-secundario
+  background-color: $color-secundario
+  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 15px
+
+.bg-white
+  background-color: #fff !important

@@ -186,15 +186,14 @@ export default {
       referencia:
         'Ministerio de Transporte. (2012). Resolución 11268 de 2012. Por el cual se adopta el nuevo Informe Policial de Accidentes de Tránsito (IPAT), su manual de diligenciamiento y se dictan otras disposiciones.',
       tipo: 'Artículo',
-      link:
-        'https://web.mintransporte.gov.co/rnat/app/ayudas/Resolucion_0011268_2012.pdf',
+      link: 'http://web.mintransporte.gov.co/jspui/handle/001/5348',
     },
     {
       tema: 'La conciliación en accidentes de tránsito',
       referencia:
         'Congreso de Colombia. (2022). Ley 2220 de 2022. Por medio de la cual se expide el estatuto de conciliación y se dictan otras disposiciones.',
       tipo: 'Artículo',
-      descarga:
+      link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=188766',
     },
     {
@@ -203,7 +202,7 @@ export default {
         'Ramos E., y Quiroga, L. (2017). Investigación de accidentes de tránsito en Colombia. Imprenta Nacional.',
       tipo: 'Libro',
       descarga:
-        'https://www.policia.gov.co/contenido/investigacion-accidentes-transito-colombia',
+        'downloads/libro-investigacion-accidentes-de-transito-en-colombia.pdf',
     },
   ],
   glosario: [
@@ -358,7 +357,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Carlos Eduardo Garavito Parada ',
           cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

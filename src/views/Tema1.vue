@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Mecanismos alternativos para la solución de conflictos
@@ -15,18 +15,21 @@
           img(src='@/assets/curso/tema1/img1.png', style="width: 485px" ,alt='').m-auto
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0
-        figure
+        figure(data-aos="flip-up")
           img(src='@/assets/curso/tema1/img2.png', style="width: 485px" ,alt='').m-auto
-      .col
-        p El art. 518 define la justicia restaurativa como aquel proceso en que la víctima y el infractor hace una participación activa de acuerdo con el conflicto a resolver, teniendo como único fin la reparación del daño, lo anterior lográndose con o sin la participación de un agente externo que sirva como facilitador.
-        p En este mismo sentido, la definición que se le da a la acción de resultado restaurativo es el acuerdo que se da entre las dos partes (víctima e infractor) dando a conocer las necesidades y responsabilidades individuales y colectivas con el fin de reparar a la víctima por el daño y a su vez reintegrando al infractor a la aceptación de la sociedad nuevamente.
+      .col(data-aos="fade-left")
+        p El #[strong art. 518] define la justicia restaurativa como aquel proceso en que la víctima y el infractor hace una participación activa de acuerdo con el conflicto a resolver, teniendo como único fin la reparación del daño, lo anterior lográndose con o sin la participación de un agente externo que sirva como facilitador.
+        p En este mismo sentido, la definición que se le da a la #[strong acción de resultado restaurativo] es el acuerdo que se da entre las dos partes (víctima e infractor) dando a conocer las necesidades y responsabilidades individuales y colectivas con el fin de reparar a la víctima por el daño y a su vez reintegrando al infractor a la aceptación de la sociedad nuevamente.
         p.mb-0 De acuerdo con lo anterior, la Ley 906 del 2004 establece unas reglas generales que deben aplicarse en los procesos de justicia restaurativa, estas son:
     .row.justify-content-center.mb-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1
+          span Reglas generales justicia restaurativa
         figure.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/img1.svg', alt='"Esquema gráfico que enuncia las 6 reglas clave para aplicación de la justicia restaurativa, las cuales son: 1 Debe ser consensuado entre ambas partes (victima e infractor), a su vez este proceso una vez se inicie se puede retirar en cualquier parte de este. 2 En concordancia con las obligaciones que aquí se apliquen deberán ser congruentes, razonables y lógicas de acuerdo con el daño realizado. 3 Este proceso será de carácter individual, no podrá utilizarse como antecedente para ejercicios jurídicos anteriores, de igual manera este no será tomado como efecto de culpabilidad. 4 El incumplimiento de los acuerdos no generan causa de agravación ni atenuación punitiva. 5 En el caso de que este mecanismo utilice un facilitador de por medio, este velara para que su trabajo se realice de manera imparcial y que ambas partes muestren respeto mutuo. 6 Ambas partes podrán guiarse a través de un abogado.').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', alt='Esquema gráfico que enuncia las 6 reglas clave para aplicación de la justicia restaurativa, las cuales son: 1 Debe ser consensuado entre ambas partes (victima e infractor), a su vez este proceso una vez se inicie se puede retirar en cualquier parte de este. 2 En concordancia con las obligaciones que aquí se apliquen deberán ser congruentes, razonables y lógicas de acuerdo con el daño realizado. 3 Este proceso será de carácter individual, no podrá utilizarse como antecedente para ejercicios jurídicos anteriores, de igual manera este no será tomado como efecto de culpabilidad. 4 El incumplimiento de los acuerdos no generan causa de agravación ni atenuación punitiva. 5 En el caso de que este mecanismo utilice un facilitador de por medio, este velara para que su trabajo se realice de manera imparcial y que ambas partes muestren respeto mutuo. 6 Ambas partes podrán guiarse a través de un abogado.').m-auto
         figure.d-block.d-lg-none
-          img(src='@/assets/curso/tema1/img1m.svg', alt='"Esquema gráfico que enuncia las 6 reglas clave para aplicación de la justicia restaurativa, las cuales son: 1 Debe ser consensuado entre ambas partes (victima e infractor), a su vez este proceso una vez se inicie se puede retirar en cualquier parte de este. 2 En concordancia con las obligaciones que aquí se apliquen deberán ser congruentes, razonables y lógicas de acuerdo con el daño realizado. 3 Este proceso será de carácter individual, no podrá utilizarse como antecedente para ejercicios jurídicos anteriores, de igual manera este no será tomado como efecto de culpabilidad. 4 El incumplimiento de los acuerdos no generan causa de agravación ni atenuación punitiva. 5 En el caso de que este mecanismo utilice un facilitador de por medio, este velara para que su trabajo se realice de manera imparcial y que ambas partes muestren respeto mutuo. 6 Ambas partes podrán guiarse a través de un abogado.').m-auto
+          img(src='@/assets/curso/tema1/img1m.svg', alt='Esquema gráfico que enuncia las 6 reglas clave para aplicación de la justicia restaurativa, las cuales son: 1 Debe ser consensuado entre ambas partes (victima e infractor), a su vez este proceso una vez se inicie se puede retirar en cualquier parte de este. 2 En concordancia con las obligaciones que aquí se apliquen deberán ser congruentes, razonables y lógicas de acuerdo con el daño realizado. 3 Este proceso será de carácter individual, no podrá utilizarse como antecedente para ejercicios jurídicos anteriores, de igual manera este no será tomado como efecto de culpabilidad. 4 El incumplimiento de los acuerdos no generan causa de agravación ni atenuación punitiva. 5 En el caso de que este mecanismo utilice un facilitador de por medio, este velara para que su trabajo se realice de manera imparcial y que ambas partes muestren respeto mutuo. 6 Ambas partes podrán guiarse a través de un abogado.').m-auto
     p Configurado a lo establecido en la norma, en el Art. 521 de esta misma ley, se establecen los mecanismos de acción para la justicia restaurativa los cuales se codifican en la conciliación en el incidente de reparación integral y la mediación.
     Separador
     #t_1_1
@@ -46,7 +49,7 @@
             .p-4
               figure.mb-3
                 img(src='@/assets/curso/tema1/img3.svg', style="width: 80px" ,alt='')
-              p.mb-0 #[b Segundo]: si no se llega a la conciliación el fiscal actúa de acuerdo con el ejercicio de la acción penal correspondiente
+              p.mb-0 #[b Segundo]: si no se llega a la conciliación el fiscal actúa de acuerdo con el ejercicio de la acción penal correspondiente.
       .col-lg-6
         figure
           img(src='@/assets/curso/tema1/img3.png', style="width: 520px" ,alt='').m-auto
@@ -54,7 +57,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10.bg-c4
         .p-5
-          p.mb-0 Toda acción por vía de justicia restaurativa que sea de tipo conciliatorio tendrá que reglarse bajo el amparo de la Ley 640 del 2001 “Por la cual se modifican normas relativas a la conciliación y se dictan otras disposiciones” modificada y derogada por La ley 2220 del 2022 “por medio de la cual se expide el estatuto de conciliación y se dictan otras disposiciones”.
+          p.mb-0 Toda acción por vía de justicia restaurativa que sea de tipo conciliatorio tendrá que reglarse bajo el amparo de la #[strong Ley 640 del 2001] “Por la cual se modifican normas relativas a la conciliación y se dictan otras disposiciones” modificada y derogada por La ley 2220 del 2022 “por medio de la cual se expide el estatuto de conciliación y se dictan otras disposiciones”.
     p.mb-5 Con esto, se puede entender más a fondo la definición y los fines de la conciliación, la cual se encuentra en el Art. 3° de esta ley, de esta manera:
     .row.mb-5
       .col-12.bg-c4
@@ -172,7 +175,7 @@
       .col-lg-6
         .row.align-items-end.h-100
           .col-12
-            p Tal como se puede dilucidar en años.
+            p.mb-lg-5.mb-3 Tal como se puede dilucidar en la norma antes señalada, esta excepción únicamente es aplicable para la conciliación de siniestros viales, vale la pena resaltar, que son aquellos donde solo se afecta el bien jurídico tutelado de la responsabilidad civil, es decir (daños materiales o solo daños).
             figure
               img(src='@/assets/curso/tema1/img5.png', style="width: 650px" ,alt='').m-auto
     Separador
@@ -185,7 +188,7 @@
         p Por consiguiente, la mediación puede verse involucrada en varios aspectos; en el siguiente documento se puede consultar los más importantes.
         .row
           .col-auto
-            a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo(:href="obtenerLink('/downloads/Anexo_1_aspectos_mediacion.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -223,7 +226,8 @@
     p.mb-5 Se invita a revisar el siguiente material para aclarar en qué consiste el proceso de arbitraje:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TOkcExkgq9c" title="Proceso de arbitraje" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Proceso de arbitraje
 
 </template>
 
