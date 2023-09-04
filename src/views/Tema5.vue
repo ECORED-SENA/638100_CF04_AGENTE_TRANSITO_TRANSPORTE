@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema5/img1.png', style="width: 450px" ,alt='').m-auto
       .col-lg-8
-        p El #[b artículo 143 de la Ley 769 de 2002], por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones, indica que en todo accidente de tránsito donde solo se causen daños materiales en los que resulten afectados vehículos asegurados no asegurados, inmuebles, cosas o animales y no sé produzcan lesiones personales, los conductores, entidades aseguradoras y demás interesados en el accidente recaudarán todas las pruebas relativas a la colisión como material probatorio que podrá reemplazar el informe de accidente de tránsito que expide la autoridad competente.
+        p El #[b artículo 143 de la Ley 769 de 2002], por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones, indica que en todo accidente de tránsito donde solo se causen daños materiales en los que resulten afectados vehículos asegurados, no asegurados, inmuebles, cosas o animales y no sé produzcan lesiones personales, los conductores, entidades aseguradoras y demás interesados en el accidente recaudarán todas las pruebas relativas a la colisión como material probatorio que podrá reemplazar el informe de accidente de tránsito que expide la autoridad competente.
         p.mb-0 Independientemente de que los vehículos involucrados en un accidente de este tipo estén asegurados o no, se debe retirar vehículos colisionados y todo elemento que pueda interrumpir el tránsito y acudir a los centros de conciliación debidamente autorizados por el Ministerio de Justicia y del Derecho.
     .row.mb-5
       .col-12.bg-c4

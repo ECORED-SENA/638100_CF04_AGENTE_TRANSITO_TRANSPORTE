@@ -78,71 +78,161 @@
         p • #[b La primera denominación bajo el contexto de derecho], cuando se realice a través de centros de conciliación, ante particulares autorizados para conciliar que cumplen función pública o ante autoridades en cumplimiento de funciones conciliatorias (Ley 2220 de 2022, 2022).
         p • #[b La segunda en materia de equidad], cuando se realice ante conciliadores en equidad aplicando principios de justicia comunitaria dentro del ámbito establecido por la ley (Ley 2220 de 2022, 2022).
     p.mb-5 La conciliación se fundamenta a través de 11 principios, que se indican a continuación:
-    SlyderF.mb-5(columnas="col-md-6 col-xl-4")
+
+    .row.justify-content-center.align-items-stretch.mb-5.d-lg-none
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img5.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 1. Autocomposición]
+          p.mb-0 Son las propias partes confrontadas las que resuelven su conflicto, desavenencias o diferencias en ejercicio de la autonomía de la voluntad.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img6.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 2. Garantía]
+          p.mb-0 De acceso a la justicia en la regulación, implementación y operación de la conciliación se garantizará que todas las personas, sin distinción, tengan las mismas oportunidades, y la posibilidad real y efectiva de acceder al servicio que solicitan.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img7.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 3. Celeridad]
+          p.mb-0 Los procedimientos definidos en la presente ley se rigen sobre preceptos ágiles, de fácil aplicación en todo contexto y materia, por lo que los mismos deberán interpretarse y aplicarse por el conciliador, con la debida diligencia, en función de la solución autocompositiva del conflicto.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img8.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 4. Confidencialidad]
+          p.mb-0 El conciliador, las partes y quienes asistan a la audiencia mantendrán y garantizarán el carácter confidencial de todos los asuntos relacionados con la conciliación.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img9.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 5. Informalidad]
+          p.mb-0 La conciliación está desprovista de las formalidades jurídicas procesales.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img10.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 6. Economía]
+          p.mb-0 En el ejercicio de la conciliación los conciliadores procurarán el más alto nivel de calidad en sus actuaciones y la protección de los derechos de las personas, procediendo con austeridad y eficiencia.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img11.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 7. Transitoriedad]
+          p.mb-0 De la función de administrar justicia del conciliador particular. La función transitoria inicia con la designación como conciliador y cesa con la suscripción del acta de conciliación, las constancias que establece la ley o el desistimiento de una o ambas partes.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img12.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 8. Independencia]
+          p.mb-0 Del conciliador como administrador de justicia en los términos del artículo 116 de la Constitución. El conciliador tendrá autonomía funcional, es decir, no estará subordinado a la voluntad de otra persona; entidad o autoridad superior.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img13.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 9. Seguridad]
+          p.mb-0 El análisis del conflicto deberá contar con referentes de confianza en el proceso conciliatorio como medio para la solución pacífica del conflicto y creador de derechos con efectos, lealtad procesal en la actuación, y certeza en la justicia desde actores sociales e institucionales.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img14.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 10. Neutralidad]
+          p.mb-0 Como administrador de justicia, el conciliador garantizará su actuar y su conducta de manera honesta, leal, neutral e imparcial, antes y durante la audiencia de conciliación y hasta que se alcance una decisión final al conflicto o controversia.
+
+      .col-12.col-md-6.mb-4
+        .tarjeta.color-acento-botones.p-4
+          .row.mb-3
+            .col-12
+              img(src='@/assets/curso/tema1/img15.svg' alt='' style='max-width: 80px').m-auto
+          p #[b 11. Presunción]
+          p.mb-0 Se debe garantizar que todas las actuaciones de la conciliación se presumirá la buena fe de conformidad con lo previsto en el artículo 83 de la Carta Política, que incluye la presunción de autenticidad de todos los documentos y actuaciones, físicas y virtuales, de conformidad con las disposiciones del CGP.
+
+    SlyderF.mb-5(columnas="col-md-6 col-xl-4").d-none.d-lg-flex
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img5.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img5.svg' alt='')
         p #[b 1. Autocomposición]
         p.mb-0 Son las propias partes confrontadas las que resuelven su conflicto, desavenencias o diferencias en ejercicio de la autonomía de la voluntad.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img6.svg' alt='')
         p #[b 2. Garantía]
         p.mb-0 De acceso a la justicia en la regulación, implementación y operación de la conciliación se garantizará que todas las personas, sin distinción, tengan las mismas oportunidades, y la posibilidad real y efectiva de acceder al servicio que solicitan.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img7.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img7.svg' alt='')
         p #[b 3. Celeridad]
         p.mb-0 Los procedimientos definidos en la presente ley se rigen sobre preceptos ágiles, de fácil aplicación en todo contexto y materia, por lo que los mismos deberán interpretarse y aplicarse por el conciliador, con la debida diligencia, en función de la solución autocompositiva del conflicto.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img8.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img8.svg' alt='')
         p #[b 4. Confidencialidad]
         p.mb-0 El conciliador, las partes y quienes asistan a la audiencia mantendrán y garantizarán el carácter confidencial de todos los asuntos relacionados con la conciliación.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img9.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img9.svg' alt='')
         p #[b 5. Informalidad]
         p.mb-0 La conciliación está desprovista de las formalidades jurídicas procesales.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img10.svg' alt='')
         p #[b 6. Economía]
         p.mb-0 En el ejercicio de la conciliación los conciliadores procurarán el más alto nivel de calidad en sus actuaciones y la protección de los derechos de las personas, procediendo con austeridad y eficiencia.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img11.svg' alt='')
         p #[b 7. Transitoriedad]
         p.mb-0 De la función de administrar justicia del conciliador particular. La función transitoria inicia con la designación como conciliador y cesa con la suscripción del acta de conciliación, las constancias que establece la ley o el desistimiento de una o ambas partes.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img12.svg' alt='')
         p #[b 8. Independencia]
         p.mb-0 Del conciliador como administrador de justicia en los términos del artículo 116 de la Constitución. El conciliador tendrá autonomía funcional, es decir, no estará subordinado a la voluntad de otra persona; entidad o autoridad superior.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img13.svg' alt='')
         p #[b 9. Seguridad]
         p.mb-0 El análisis del conflicto deberá contar con referentes de confianza en el proceso conciliatorio como medio para la solución pacífica del conflicto y creador de derechos con efectos, lealtad procesal en la actuación, y certeza en la justicia desde actores sociales e institucionales.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img14.svg' alt='')
         p #[b 10. Neutralidad]
         p.mb-0 Como administrador de justicia, el conciliador garantizará su actuar y su conducta de manera honesta, leal, neutral e imparcial, antes y durante la audiencia de conciliación y hasta que se alcance una decisión final al conflicto o controversia.
       .tarjeta.color-acento-botones.p-4
         .row.mb-3
           .col-5
-            img(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
+            img(src='@/assets/curso/tema1/img15.svg' alt='')
         p #[b 11. Presunción]
         p.mb-0 Se debe garantizar que todas las actuaciones de la conciliación se presumirá la buena fe de conformidad con lo previsto en el artículo 83 de la Carta Política, que incluye la presunción de autenticidad de todos los documentos y actuaciones, físicas y virtuales, de conformidad con las disposiciones del CGP.
     .row.align-items-center.mb-4
