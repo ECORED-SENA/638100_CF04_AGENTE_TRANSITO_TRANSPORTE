@@ -85,7 +85,7 @@
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         p En la actuación principal para el abordaje de las partes, se debe tratar principalmente la temática de la negociación, en este sentido, la negociación es un proceso de abordaje de conflictos entre dos o más partes, las cuales tienen posiciones diferentes y deben ser solucionadas de manera asertiva.
-        p Con este concepto el fin primordial del abordaje de conflictos a través de la negociación (abordaje de partes) es la de buscar tres aspectos: el primero es lograr una solución satisfactoria, la segunda es que esta solución se base bajo el esquema de ganar – ganar y la tercera es que esta solución se maneje bajo acuerdos operativos, es decir, que en el proceso se cumplan.
+        p Con este concepto, el fin primordial del abordaje de conflictos a través de la negociación (abordaje de partes) es la de buscar tres aspectos: el primero es lograr una solución satisfactoria, la segunda es que esta solución se base bajo el esquema de ganar – ganar y la tercera es que esta solución se maneje bajo acuerdos operativos, es decir, que en el proceso se cumplan.
         p.mb-0 En este sentido, con la definición dada se debe hacer la siguiente pregunta: #[b ¿Cómo abordar el conflicto por medio de técnicas de negociación?], para este fin, se deben formular acciones que permitan el desarrollo de dichas negociaciones, entre las que se encuentran:
       .col-lg-4
         figure
@@ -204,7 +204,7 @@
     .row.align-items-center
       .col-lg-8
         p Dentro del ámbito de la comunicación asertiva, y con base en lo descrito anteriormente, es importante tener los objetivos claros, para lograr con ello que la atención al cliente externo, sea el actor vial que sea, esté satisfecho con la información, la atención y la prontitud de su requerimiento.
-        p En este espacio, las personas que hacen la veces de negociador tendrán que apropiar los mecanismos necesarios descritos en el espacio de la comunicación para aplicar la imparcialidad en las decisiones a tomar, siendo objetivos y no subjetivos, manteniendo sus emociones bajo control, haciendo un dominio especial de su lenguaje corporal, reflejando con ello siempre la autoridad y el control del evento.
+        p En este espacio, las personas que hacen las veces de negociador tendrán que apropiar los mecanismos necesarios descritos en el espacio de la comunicación para aplicar la imparcialidad en las decisiones a tomar, siendo objetivos y no subjetivos, manteniendo sus emociones bajo control, haciendo un dominio especial de su lenguaje corporal, reflejando con ello siempre la autoridad y el control del evento.
         p.mb-5 Para esto, se deben tener en cuenta las siguientes conceptualizaciones:
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Imparcialidad en la toma de decisiones")
@@ -233,7 +233,7 @@
                 img(src='@/assets/curso/tema2/img16.png', style="width:450px" ,alt='').m-auto
           .row(numero="5" titulo="Autoridad y control del evento")
             .col-lg-6.mb-4.mb-lg-0
-              p.mb-0 El conciliador, mediador o en su defecto negociador, debe controlar siempre el evento a través de su conocimiento y formalidad, un mal manejo ocasionara que las partes nunca lleguen a la resolución del conflicto, en cambio pueden agravar el mismo.
+              p.mb-0 El conciliador, mediador o en su defecto negociador, debe controlar siempre el evento a través de su conocimiento y formalidad, un mal manejo ocasionará que las partes nunca lleguen a la resolución del conflicto, en cambio, pueden agravar el mismo.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema2/img17.png', style="width:450px" ,alt='').m-auto

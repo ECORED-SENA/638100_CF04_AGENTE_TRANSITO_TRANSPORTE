@@ -201,8 +201,8 @@ export default {
       referencia:
         'Ramos E., y Quiroga, L. (2017). Investigación de accidentes de tránsito en Colombia. Imprenta Nacional.',
       tipo: 'Libro',
-      descarga:
-        'downloads/libro-investigacion-accidentes-de-transito-en-colombia.pdf',
+      link:
+        'https://www.policia.gov.co/sites/default/files/publicaciones-institucionales/libro-investigacion-accidentes-de-transito-en-colombia.pdf',
     },
   ],
   glosario: [
@@ -212,14 +212,14 @@ export default {
         'mecanismo alternativo de solución de conflictos mediante el cual las partes defieren árbitros la solución de una controversia relativa a asuntos de libre disposición o aquellos que la ley autorice.',
     },
     {
-      termino: 'Accidente de transito',
+      termino: 'Accidente de tránsito',
       significado:
         'evento generalmente involuntario, generado al menos por un vehículo en movimiento, que causa daños a personas y bienes involucrados en él e igualmente afecta la normal circulación de los vehículos que se movilizan por la vía o vías comprendidas en el lugar o dentro de la zona de influencia del hecho.',
     },
     {
       termino: 'Conciliación',
       significado:
-        'mecanismo alternativo de solución de conflictos a través del cual, dos o más personas, naturales o jurídicas, de carácter privado o público, nacional o extranjera), gestionan por sí mismas la solución de sus diferencias, con la ayuda de un tercero neutral y calificado, denominado conciliador.',
+        'mecanismo alternativo de solución de conflictos a través del cual, dos o más personas, naturales o jurídicas, de carácter privado o público, nacional o extranjera, gestionan por sí mismas la solución de sus diferencias, con la ayuda de un tercero neutral y calificado, denominado conciliador.',
     },
     {
       termino: 'Comparendo',
@@ -331,7 +331,7 @@ export default {
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Corrector de Estilo',
-          centro: 'Corrector de Estilo - Regional Distrito Capital ',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
         },
       ],
     },

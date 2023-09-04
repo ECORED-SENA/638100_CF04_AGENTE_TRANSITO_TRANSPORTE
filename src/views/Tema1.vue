@@ -38,7 +38,7 @@
     .row.align-items-center.mb-4
       .col-lg-6.mb-4.mb-lg-0
         p En el #[b Art. 255] de la #[b Ley 906 2004] se contempla la definición de conciliación de los delitos querellables los cuales se hacen ante un fiscal, un centro de conciliación o un conciliador reconocido.
-        p Ahora bien, cuando la acción se presente ante un fiscal el procedimiento podrá tomar los siguiente dos rumbos:
+        p Ahora bien, cuando la acción se presente ante un fiscal el procedimiento podrá tomar los siguientes dos rumbos:
         .row.justify-content-center
           .col-8.col-md.m-2.bg-c3
             .p-4
@@ -63,7 +63,7 @@
       .col-12.bg-c4
         .p-4
           .row.align-items-center
-            .col-auto
+            .col-auto.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema1/img4.svg', style="width: 120px" ,alt='')
             .col
@@ -223,7 +223,7 @@
               p #[b El arbitraje]
               p.mb-0 Mecanismo por medio del cual las partes involucradas en un conflicto de carácter transigible, difieren su solución ante un tribunal arbitral, el cual queda transitoriamente investido de la facultad de administrar justicia, profiriendo una decisión llamada laudo arbitral.
     p Sin embargo, no se puede omitir que todo problema jurídico, como lo es, en este caso un siniestro vial, requieren eventualmente de una atención oportuna, conciliadora y de fácil acceso para la ciudadanía, no pueden dejarse en cabeza siempre al arbitrio de un particular, indistintamente que en esos momentos estén revestidos de un poder jurisdiccional.
-    p.mb-5 Se invita a revisar el siguiente material para aclarar en qué consiste el proceso de arbitraje:
+    p.mb-5 Se invita a revisar el siguiente video para aclarar en qué consiste el proceso de arbitraje:
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/TOkcExkgq9c" title="Proceso de arbitraje" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -232,11 +232,13 @@
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema1',
   components: {},
   data: () => ({
     // variables de vue
+    components: { SlyderF },
   }),
   mounted() {
     this.$nextTick(() => {
