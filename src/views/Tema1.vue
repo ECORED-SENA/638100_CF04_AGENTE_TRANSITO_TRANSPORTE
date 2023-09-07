@@ -325,10 +325,9 @@
 import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { SlyderF },
   data: () => ({
     // variables de vue
-    components: { SlyderF },
   }),
   mounted() {
     this.$nextTick(() => {
